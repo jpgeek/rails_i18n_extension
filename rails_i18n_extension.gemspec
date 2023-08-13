@@ -6,21 +6,21 @@ Gem::Specification.new do |spec|
   spec.name = "rails_i18n_extension"
   spec.version = RailsI18nExtension::VERSION
   spec.authors = ["Steve Brown"]
-  spec.email = ["steve@zergsoft.com"]
+  spec.email = [""]
 
-  spec.summary = "TODO: Write a short summary, because RubyGems requires one."
-  spec.description = "TODO: Write a longer description or delete this line."
-  spec.homepage = "TODO: Put your gem's website or public repo URL here."
+  spec.summary = "Additions to the rails-i18n gem."
+  spec.description = "The rails-i18n gem is great, but lacks man tranlations that I use in virtually every project.  For example back, next_page, delete etc."
+  spec.homepage = "https://github.com/jpgeek/rails_i18n_extension"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 2.6.0"
 
-  spec.metadata["allowed_push_host"] = "TODO: Set to your gem server 'https://example.com'"
+  spec.metadata["allowed_push_host"] = ""
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "TODO: Put your gem's public repo URL here."
-  spec.metadata["changelog_uri"] = "TODO: Put your gem's CHANGELOG.md URL here."
+  spec.metadata["source_code_uri"] = "https://github.com/jpgeek/rails_i18n_extension.git"
+  spec.metadata["changelog_uri"] = "https://github.com/jpgeek/rails_i18n_extension/CHANGELOG.md"
 
-  spec.add_dependency 'rails', '>= 7.0'
+  spec.add_dependency 'rails', '~> 7.0'
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
